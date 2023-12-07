@@ -13,8 +13,6 @@ try:
 except ImportError:
     import itertools
 
-# This is taken from Trevor Bedford's github. It is a Wright-Fisher simulation which includes: Mutation, Selection and Genetic Drift
-
 def main():
     
     pop_size = 10000                        # Size of Population
